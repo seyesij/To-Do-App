@@ -1,0 +1,12 @@
+<% include ../partials/boilerplate %>
+
+<h6>Add a new To-Do!</h6>
+<form method='POST' action='/todos'>
+  <input class='adding' name='title' type='text' placeholder='title' />
+  <input class='adding' name='category' type='text' placeholder='category' />
+  <input class='adding' name='status' type='text' placeholder='status' />
+  <input class='adding' name='description' type='text' placeholder='description' />
+  <input type='submit' value='Submit!' />
+</form>
+
+<% include ../partials/end %>

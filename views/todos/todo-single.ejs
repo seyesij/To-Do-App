@@ -1,0 +1,18 @@
+<% include ../partials/boilerplate %>
+
+
+    <div class='todosingle'>
+      <h3><%= data.title %></h3>
+      <p class='singlepara'><span>Category:</span> <%= data.category %><p>
+      <p class='singlepara'><span>Status:</span> <%= data.status %><p>
+      <p class='singlepara'><span>Description:</span> <%= data.description %></p>
+        <div>
+         <a class='links' href='/todos/<%= data.id %>/edit'>Edit</a>
+         <form class='links' method='POST' action='/todos/<%= data.id %>?_method=DELETE'>
+          <input type='submit' value='DELETE' />
+         </form>
+         <a class='links' id='seeall' href='/todos/'>See all to dos</a>
+        </div>
+    </div>
+
+<% include ../partials/end %>

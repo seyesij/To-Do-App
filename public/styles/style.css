@@ -1,0 +1,239 @@
+body {
+ background: rgb(255, 255, 153);
+ position: relative;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Neucha', cursive;
+  text-align: center;
+}
+
+h4 {
+  font-size: 26px;
+  font-family: 'Neucha', cursive;
+  text-align: left;
+  color: darkgrey;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Neucha', cursive;
+  text-align: right;
+  color: red;
+}
+
+h6 {
+  font-size: 30px;
+  font-family: 'Neucha', cursive;
+  text-align: center;
+  padding-top: 20px;
+}
+
+ p {
+  font-family: 'Neucha', cursive;
+  font-size: 18px;
+ }
+
+ a {
+  color: purple;
+ }
+
+.navbar {
+    color: green;
+}
+
+.welcome {
+  height: 100vh;
+  background: url("../images/todo.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.homepage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 40px;
+  margin-left: -230px;
+}
+
+ul {
+  height: 50px;
+  background-color: white;
+}
+
+li {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0 40px;
+  font-size: 25px;
+  font-weight: bold;
+  float: right;
+}
+
+.logbutton {
+   margin-top: 40px;
+   margin-left: 160px;
+}
+
+button {
+  padding: 8px;
+}
+
+.navbar:hover {
+    color: rgb(204, 153, 0);
+}
+
+
+.todo {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 50px;
+  width: 350px;
+  float: left;
+}
+
+.todoindex {
+   max-width: 1000px;
+   margin: auto;
+}
+
+.linkto {
+  float: left;
+  padding-right: 10px;
+}
+
+a:hover {
+    color: orange;
+}
+
+.todosingle {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+
+.singlepara {
+  margin-top: 15px;
+}
+
+span {
+  font-weight: bolder;
+  color: green;
+  font-size: 21px;
+}
+
+.links {
+  float: left;
+  padding-right: 10px;
+  margin: 10px 0 0 15px;
+}
+
+.add form, .edit form {
+  width: 50vw;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login form {
+  width: 20vw;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.register form {
+  width: 30vw;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.adding {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.editing {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.loggingin {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.registering {
+  margin-top: 3px;
+  padding: 18px;
+  font-size: 16px;
+}
+
+.login-container {
+  margin-top: 50px;
+}
+
+.add form input[type=submit], .edit form input[type=submit], .register form input[type=submit]  {
+  background-color: red;
+  display: block;
+  margin: auto;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+.login form input[type=submit] {
+  background-color: red;
+  display: block;
+  margin: auto;
+  padding: 5px 9px;
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+.add form input[type=submit]:hover, .add form input[type=submit]:focus,
+.edit form input[type=submit]:hover, .edit form input[type=submit]:focus {
+  outline: 0;
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
